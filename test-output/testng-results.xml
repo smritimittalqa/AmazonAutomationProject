@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-23T17:56:18 GMT-07:00" name="Suite" finished-at="2023-10-23T17:57:55 GMT-07:00" duration-ms="96932">
+    <groups>
+    </groups>
+    <test started-at="2023-10-23T17:56:18 GMT-07:00" name="TestViaChrome" finished-at="2023-10-23T17:57:55 GMT-07:00" duration-ms="96932">
+      <class name="test.AddToCartTestValidation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.AddToCartTestValidation@30ee2816]" started-at="2023-10-23T17:57:35 GMT-07:00" name="beforeClass" finished-at="2023-10-23T17:57:35 GMT-07:00" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateAddToCart(java.lang.String)[pri:1, instance:test.AddToCartTestValidation@30ee2816]" started-at="2023-10-23T17:57:35 GMT-07:00" name="validateAddToCart" finished-at="2023-10-23T17:57:48 GMT-07:00" duration-ms="13702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung galaxy s10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCart -->
+        <test-method signature="validateProceedToCheckout()[pri:2, instance:test.AddToCartTestValidation@30ee2816]" started-at="2023-10-23T17:57:48 GMT-07:00" name="validateProceedToCheckout" finished-at="2023-10-23T17:57:55 GMT-07:00" duration-ms="6462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProceedToCheckout -->
+      </class> <!-- test.AddToCartTestValidation -->
+      <class name="test.LandingValidation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.LandingValidation@6a28ffa4]" started-at="2023-10-23T17:56:27 GMT-07:00" name="beforeClass" finished-at="2023-10-23T17:56:27 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateUrl()[pri:1, instance:test.LandingValidation@6a28ffa4]" started-at="2023-10-23T17:56:27 GMT-07:00" name="validateUrl" finished-at="2023-10-23T17:56:28 GMT-07:00" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method signature="validateTitle()[pri:2, instance:test.LandingValidation@6a28ffa4]" started-at="2023-10-23T17:56:28 GMT-07:00" name="validateTitle" finished-at="2023-10-23T17:56:28 GMT-07:00" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- test.LandingValidation -->
+      <class name="test.SearchPageValidation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.SearchPageValidation@1700915]" started-at="2023-10-23T17:56:43 GMT-07:00" name="beforeClass" finished-at="2023-10-23T17:56:43 GMT-07:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateSearchResult(java.lang.String)[pri:1, instance:test.SearchPageValidation@1700915]" started-at="2023-10-23T17:56:43 GMT-07:00" name="validateSearchResult" finished-at="2023-10-23T17:56:46 GMT-07:00" duration-ms="3256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung galaxy s10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResult -->
+        <test-method signature="validatePrice()[pri:2, instance:test.SearchPageValidation@1700915]" started-at="2023-10-23T17:56:46 GMT-07:00" name="validatePrice" finished-at="2023-10-23T17:56:47 GMT-07:00" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrice -->
+        <test-method signature="validateNavigation()[pri:3, instance:test.SearchPageValidation@1700915]" started-at="2023-10-23T17:56:47 GMT-07:00" name="validateNavigation" finished-at="2023-10-23T17:56:56 GMT-07:00" duration-ms="9023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigation -->
+      </class> <!-- test.SearchPageValidation -->
+      <class name="base.Base">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:base.Base@3c130745]" started-at="2023-10-23T17:56:18 GMT-07:00" name="beforeTest" finished-at="2023-10-23T17:56:27 GMT-07:00" duration-ms="9491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:base.Base@3c130745]" started-at="2023-10-23T17:57:55 GMT-07:00" name="afterSuite" finished-at="2023-10-23T17:57:56 GMT-07:00" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- base.Base -->
+      <class name="test.ItemPageValidations">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.ItemPageValidations@21de60b4]" started-at="2023-10-23T17:56:56 GMT-07:00" name="beforeClass" finished-at="2023-10-23T17:56:56 GMT-07:00" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateDeliveryBox(java.lang.String)[pri:1, instance:test.ItemPageValidations@21de60b4]" started-at="2023-10-23T17:56:56 GMT-07:00" name="validateDeliveryBox" finished-at="2023-10-23T17:57:11 GMT-07:00" duration-ms="15302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung galaxy s10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeliveryBox -->
+      </class> <!-- test.ItemPageValidations -->
+      <class name="test.SponsorLinkValidation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.SponsorLinkValidation@c267ef4]" started-at="2023-10-23T17:57:11 GMT-07:00" name="beforeClass" finished-at="2023-10-23T17:57:11 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateSponsoredLink(java.lang.String)[pri:1, instance:test.SponsorLinkValidation@c267ef4]" started-at="2023-10-23T17:57:11 GMT-07:00" name="validateSponsoredLink" finished-at="2023-10-23T17:57:35 GMT-07:00" duration-ms="23757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung galaxy s10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSponsoredLink -->
+      </class> <!-- test.SponsorLinkValidation -->
+      <class name="test.LandingPageValidation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.LandingPageValidation@48ae9b55]" started-at="2023-10-23T17:56:28 GMT-07:00" name="beforeClass" finished-at="2023-10-23T17:56:28 GMT-07:00" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateNewReleases()[pri:1, instance:test.LandingPageValidation@48ae9b55]" started-at="2023-10-23T17:56:28 GMT-07:00" name="validateNewReleases" finished-at="2023-10-23T17:56:32 GMT-07:00" duration-ms="4148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewReleases -->
+        <test-method signature="validateWishList()[pri:2, instance:test.LandingPageValidation@48ae9b55]" started-at="2023-10-23T17:56:32 GMT-07:00" name="validateWishList" finished-at="2023-10-23T17:56:36 GMT-07:00" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWishList -->
+        <test-method signature="validatePrime()[pri:3, instance:test.LandingPageValidation@48ae9b55]" started-at="2023-10-23T17:56:36 GMT-07:00" name="validatePrime" finished-at="2023-10-23T17:56:39 GMT-07:00" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrime -->
+        <test-method signature="validateSearch(java.lang.String)[pri:4, instance:test.LandingPageValidation@48ae9b55]" started-at="2023-10-23T17:56:39 GMT-07:00" name="validateSearch" finished-at="2023-10-23T17:56:43 GMT-07:00" duration-ms="4065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung galaxy s10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearch -->
+      </class> <!-- test.LandingPageValidation -->
+    </test> <!-- TestViaChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

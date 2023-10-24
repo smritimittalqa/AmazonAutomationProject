@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="url" value="https://www.amazon.ca"></parameter>
+<parameter name="searchQuery" value="samsung galaxy s10"></parameter>
+
+  <test thread-count="5" name="TestViaChrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="base.Base"/>
+      <class name="test.LandingValidation"/>
+	  <class name="test.LandingPageValidation"/>
+      <class name="test.SearchPageValidation"/>
+      <class name="test.ItemPageValidations"/> 
+      <class name="test.SponsorLinkValidation"/>
+     <class name="test.AddToCartTestValidation"/>
+  </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="TestViaFirefox">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="base.Base"/>
+           <class name="test.LandingValidation"/>
+            <class name="test.LandingPageValidation"/>
+            <class name="test.SearchPageValidation"/>
+      <class name="test.ItemPageValidations"/> 
+      <class name="test.SponsorLinkValidation"/>
+     <class name="test.AddToCartTestValidation"/>
+
+    </classes> 
+  </test>
+  
+</suite> <!-- Suite -->
